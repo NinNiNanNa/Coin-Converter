@@ -9,7 +9,7 @@ function App() {
         <div className="wrap">
           <div className="gap">
             <div className="container flex">
-              <img src="/logo.png" alt="로고이미지" />
+              <img src="./logo.png" alt="로고이미지" />
               <div className={styles.title}>Coin Converter</div>
             </div>
           </div>
