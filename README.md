@@ -1,4 +1,4 @@
-# Super-Converter
+# Coin-Converter
 
 ### ReactJS로 암호화폐변환기 만들기
 
