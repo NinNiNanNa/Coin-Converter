@@ -1,0 +1,55 @@
+.bg {
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.initTitle {
+  padding: 20px 0;
+  text-align: center;
+  color: #a0a0a0;
+}
+
+.image {
+  width: 40px;
+}
+.title {
+  margin-left: 20px;
+}
+
+.arrowImgWrap {
+  width: 100%;
+  text-align: center;
+  margin: 5px 0;
+}
+.arrowImg {
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.arrowImg:hover {
+  background-color: #f6f8fa;
+}
+
+.resetBtnWrap {
+  width: 100%;
+  text-align: right;
+}
+.resetBtn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 5px 30px;
+  font-size: 20px;
+  color: #e6006e;
+  border: 1px solid #e6006e;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.resetBtn:hover {
+  color: #fff;
+  background-color: #e6006e;
+}

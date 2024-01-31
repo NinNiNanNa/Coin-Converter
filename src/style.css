@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f7f0f2;
+}
+ul,
+li {
+  list-style: none;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+.wrap .gap {
+  margin: 0 15px;
+}
+.wrap .gap .container {
+  width: 100%;
+}
+
+header {
+  padding: 10px 0;
+}
+header img {
+  width: 60px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+input[type="number"] {
+  margin-top: 15px;
+  width: 100%;
+  padding: 20px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #b1b1b1;
+  border: 2px solid #eee;
+  outline: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+input[type="number"]:disabled {
+  border: 2px solid #eee;
+  background-color: #eee;
+}
+
+.tokenMenuWrap {
+  position: relative;
+  margin-bottom: 15px;
+}
+button {
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #e6006e;
+  cursor: pointer;
+}
+.tokenMenu {
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 51px;
+  width: 100%;
+  height: 0;
+  background-color: #fff;
+  transition: height 0.2s;
+}
+.tokenMenu.toggle {
+  overflow-y: scroll;
+  height: 400px;
+}
+.tokenMenu li {
+  padding: 10px 0;
+  font-size: 18px;
+  color: #e6006e;
+}
+.tokenMenu li:hover {
+  background-color: #feebf1;
+}
+.tokenMenu li.active {
+  background-color: #feebf1;
+}
